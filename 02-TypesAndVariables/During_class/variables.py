@@ -19,14 +19,13 @@ if n3 == n4:
 else:
     print("False")
 
-
-
 x = 7
 y = 34
+print(x, y)
 
-z = 7
-x = 34
-y = 7
+z = x
+x = y
+y = z
 
 print(x, y)
 
